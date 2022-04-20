@@ -9,4 +9,4 @@ HumanShape™ allows users to manipulate body shape models in real time to fit a
 
 
 
-HumanShape™ has a variety of applications in vehiclde design and medical areas. Learn more about HumanShape™'s applications at: https://www.youtube.com/watch?v=niDApHav9gI
+HumanShape™ has a variety of applications in vehicle design and medical areas. Learn more about HumanShape™'s applications at: https://www.youtube.com/watch?v=niDApHav9gI
