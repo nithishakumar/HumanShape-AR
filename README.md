@@ -4,9 +4,8 @@ HumanShape™ is a mobile Augmented Reality app that uses statistically accurate
 
 HumanShape™ allows users to manipulate body shape models in real time to fit a diverse range of dimensions like BMI, age, stature, and sitting height. It also allows viewers to accurately view positions of anatomical landmarks on the human body.
 
-
-
-
-
+<p align="center">
+ <img src="https://github.com/nithishakumar/HumanShape/blob/main/StandingFemaleMeshManip.gif" width="300">
+</p>
 
 HumanShape™ has a variety of applications in vehicle design and medical areas. Learn more about HumanShape™'s applications at: https://www.youtube.com/watch?v=niDApHav9gI
