@@ -5,7 +5,7 @@ HumanShape AR™ is a mobile Augmented Reality app that uses statistically accur
 HumanShape AR™ allows users to manipulate body shape models in real time to fit a diverse range of dimensions like BMI, age, stature, and sitting height. It also allows viewers to accurately view positions of anatomical landmarks on the human body.
 
 <p align="center">
- <img src="https://github.com/nithishakumar/HumanShape/blob/main/StandingFemaleMeshManip.gif" width="300">
+ <img src="https://github.com/nithishakumar/HumanShape-AR/blob/main/StandingFemaleMeshManipulation.gif" width="300">
 </p>
 
 HumanShape AR™ has a variety of applications in vehicle design and medical areas. Learn more about HumanShape AR™'s applications at: https://www.youtube.com/watch?v=niDApHav9gI
