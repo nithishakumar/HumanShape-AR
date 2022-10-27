@@ -12,9 +12,7 @@ public class ModelPlacement : MonoBehaviour
     [Header("Augmentation Object")]
     [SerializeField] GameObject Model = null;
 
-    [Header("UI Elements")]
-    [SerializeField] GameObject SetParameters;
-    [SerializeField] GameObject panel;
+    [Header("Camera")]
     Camera mMainCamera;
 
     void Start()
@@ -35,13 +33,11 @@ public class ModelPlacement : MonoBehaviour
         RotateTowardsCamera(Model);
         // Rotate the model to be vertically aligned to the y-axis and not tilted
         Model.transform.Rotate(new Vector3(0, 1, 0), 0f);
-        SetParameters.SetActive(true);
+
     }
 
     public void OnTargetLost()
     {
-        SetParameters.SetActive(false);
-        panel.SetActive(false);
     }
 
     void RotateTowardsCamera(GameObject augmentation)

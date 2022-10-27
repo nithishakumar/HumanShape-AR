@@ -2,8 +2,8 @@
     "m_SelectedDeviceId": "4836524f4e533098",
     "m_SelectedPackage": {
         "deviceId": "4836524f4e533098",
-        "name": "com.UMTRI.VuforiaTest",
-        "processId": 13510,
+        "name": "com.UMTRI.HumanShape",
+        "processId": 1130,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -114,6 +114,72 @@
             "deviceId": "4836524f4e533098",
             "name": "com.UMTRI.VuforiaTest",
             "processId": 13510,
+            "exited": false
+        },
+        {
+            "deviceId": "4836524f4e533098",
+            "name": "com.UMTRI.HumanShape",
+            "processId": 30486,
+            "exited": false
+        },
+        {
+            "deviceId": "4836524f4e533098",
+            "name": "com.UMTRI.HumanShape",
+            "processId": 23202,
+            "exited": false
+        },
+        {
+            "deviceId": "4836524f4e533098",
+            "name": "com.UMTRI.HumanShape",
+            "processId": 30051,
+            "exited": false
+        },
+        {
+            "deviceId": "4836524f4e533098",
+            "name": "com.UMTRI.HumanShape",
+            "processId": 1283,
+            "exited": false
+        },
+        {
+            "deviceId": "4836524f4e533098",
+            "name": "com.UMTRI.HumanShape",
+            "processId": 5720,
+            "exited": false
+        },
+        {
+            "deviceId": "4836524f4e533098",
+            "name": "com.UMTRI.HumanShape",
+            "processId": 10868,
+            "exited": false
+        },
+        {
+            "deviceId": "4836524f4e533098",
+            "name": "com.UMTRI.HumanShape",
+            "processId": 14113,
+            "exited": false
+        },
+        {
+            "deviceId": "4836524f4e533098",
+            "name": "com.UMTRI.HumanShape",
+            "processId": 28297,
+            "exited": false
+        },
+        {
+            "deviceId": "4836524f4e533098",
+            "name": "com.UMTRI.HumanShape",
+            "processId": 28727,
+            "exited": false
+        },
+        {
+            "deviceId": "4836524f4e533098",
+            "name": "com.UMTRI.HumanShape",
+            "processId": 31475,
+            "exited": false
+        },
+        {
+            "deviceId": "4836524f4e533098",
+            "name": "com.UMTRI.HumanShape",
+            "processId": 1130,
             "exited": false
         }
     ],

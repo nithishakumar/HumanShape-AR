@@ -155,7 +155,7 @@ public class SeatedAdultSliderAdjust : MonoBehaviour
             var diffy = calcCoords(Anths, pcaData[skipNum + i * 3 + 1]);
             var diffz = calcCoords(Anths, pcaData[skipNum + i * 3 + 2]);
 
-            vertices[idx].x = meanVertices[i].x + diffx;
+            vertices[idx].x = meanVertices[i].x - diffx;
             vertices[idx].y = meanVertices[i].y + diffy;
             vertices[idx].z = meanVertices[i].z + diffz;
         }
