@@ -12,7 +12,7 @@ public class SetParametersBttn : MonoBehaviour
 
     [Header("UI Elements")]
     [SerializeField] GameObject panel;
-    [SerializeField] TextMeshProUGUI buttonText;
+    [SerializeField] Text buttonText;
 
 
     public void openPanel()
@@ -22,13 +22,13 @@ public class SetParametersBttn : MonoBehaviour
         if (!panel.activeSelf)
         {   // disable script
             panel.SetActive(true);
-            buttonText.text = "Done";
+            buttonText.text = "DONE";
             planefinder.SetActive(false);
         }
         // panel is active already and we are trying to close it
         else
         {   panel.SetActive(false);
-            buttonText.text = "Set Parameters";
+            buttonText.text = "SET PARAMETERS";
             planefinder.SetActive(true);
         }
 

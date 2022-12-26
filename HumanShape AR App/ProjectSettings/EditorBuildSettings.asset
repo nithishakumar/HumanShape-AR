@@ -5,16 +5,22 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Views/Homepage.unity
+    guid: ecba80abe8647604ca52dbf9d428bb6b
+  - enabled: 1
+    path: Assets/Views/ModelsPage.unity
+    guid: cf68d05970553884cb71fd67c080b095
+  - enabled: 1
     path: Assets/Standing Female/Standing Female.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 0
+  - enabled: 1
     path: Assets/Standing Male/Standing Male.unity
     guid: 22bf7baa52352a9489c6c78a081b9905
   - enabled: 1
     path: Assets/Standing Child/Standing Child.unity
     guid: 52b57fda681186c48984d70605606f50
-  - enabled: 0
+  - enabled: 1
     path: Assets/Seated Adult/Seated Adult.unity
     guid: eaa39a57e476ef240bcd953b2424ea65
   m_configObjects: {}

@@ -1,0 +1,679 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 471efbc970a337c4c83b1330ba757435, type: 3}
+  m_Name: FCU_Config
+  m_EditorClassIdentifier: 
+  productVersion: 2.0.9
+  tagConfigs:
+  - label: Frame
+    fcuTag: 3
+    figmaTag: 
+    isParent: 1
+    isDownloadable: 0
+    canBeInsideSingleImage: 0
+    hasComponent: 0
+  - label: Container
+    fcuTag: 1
+    figmaTag: cont
+    isParent: 1
+    isDownloadable: 0
+    canBeInsideSingleImage: 1
+    hasComponent: 0
+  - label: Mask
+    fcuTag: 2
+    figmaTag: 
+    isParent: 0
+    isDownloadable: 1
+    canBeInsideSingleImage: 1
+    hasComponent: 1
+  - label: Page
+    fcuTag: 4
+    figmaTag: 
+    isParent: 1
+    isDownloadable: 0
+    canBeInsideSingleImage: 0
+    hasComponent: 0
+  - label: HorLayoutGroup
+    fcuTag: 5
+    figmaTag: 
+    isParent: 1
+    isDownloadable: 0
+    canBeInsideSingleImage: 1
+    hasComponent: 1
+  - label: VertLayoutGroup
+    fcuTag: 6
+    figmaTag: 
+    isParent: 1
+    isDownloadable: 0
+    canBeInsideSingleImage: 1
+    hasComponent: 1
+  - label: VertScrollView
+    fcuTag: 7
+    figmaTag: 
+    isParent: 1
+    isDownloadable: 0
+    canBeInsideSingleImage: 1
+    hasComponent: 0
+  - label: HorScrollView
+    fcuTag: 8
+    figmaTag: 
+    isParent: 1
+    isDownloadable: 0
+    canBeInsideSingleImage: 1
+    hasComponent: 0
+  - label: VertHorScrollView
+    fcuTag: 9
+    figmaTag: 
+    isParent: 1
+    isDownloadable: 0
+    canBeInsideSingleImage: 1
+    hasComponent: 0
+  - label: Text
+    fcuTag: 10
+    figmaTag: 
+    isParent: 0
+    isDownloadable: 0
+    canBeInsideSingleImage: 0
+    hasComponent: 1
+  - label: Vector
+    fcuTag: 11
+    figmaTag: 
+    isParent: 0
+    isDownloadable: 1
+    canBeInsideSingleImage: 1
+    hasComponent: 0
+  - label: Image
+    fcuTag: 12
+    figmaTag: img
+    isParent: 0
+    isDownloadable: 1
+    canBeInsideSingleImage: 1
+    hasComponent: 1
+  - label: Button
+    fcuTag: 13
+    figmaTag: btn
+    isParent: 1
+    isDownloadable: 0
+    canBeInsideSingleImage: 0
+    hasComponent: 1
+  - label: InputField
+    fcuTag: 15
+    figmaTag: field
+    isParent: 1
+    isDownloadable: 0
+    canBeInsideSingleImage: 0
+    hasComponent: 1
+  - label: Placeholder
+    fcuTag: 16
+    figmaTag: pholder
+    isParent: 0
+    isDownloadable: 0
+    canBeInsideSingleImage: 0
+    hasComponent: 1
+  - label: GridLayoutGroup
+    fcuTag: 17
+    figmaTag: gr
+    isParent: 1
+    isDownloadable: 1
+    canBeInsideSingleImage: 1
+    hasComponent: 1
+  - label: LayoutElement
+    fcuTag: 19
+    figmaTag: 
+    isParent: 0
+    isDownloadable: 1
+    canBeInsideSingleImage: 1
+    hasComponent: 1
+  - label: Shadow
+    fcuTag: 20
+    figmaTag: 
+    isParent: 0
+    isDownloadable: 1
+    canBeInsideSingleImage: 1
+    hasComponent: 1
+  - label: CanvasGroup
+    fcuTag: 21
+    figmaTag: 
+    isParent: 0
+    isDownloadable: 1
+    canBeInsideSingleImage: 1
+    hasComponent: 1
+  assemblyConfigs:
+  - Name: Json.NET
+    AssetType: 0
+    ScriptingDefineName: JSON_NET_EXISTS
+    Enabled:
+      Value: 1
+      Temp: 1
+    Data:
+    - Newtonsoft.Json
+  - Name: TextMeshPro
+    AssetType: 1
+    ScriptingDefineName: TMPRO_EXISTS
+    Enabled:
+      Value: 1
+      Temp: 1
+    Data:
+    - Unity.TextMeshPro
+    - TMPro
+  - Name: True Shadow
+    AssetType: 2
+    ScriptingDefineName: TRUESHADOW_EXISTS
+    Enabled:
+      Value: 1
+      Temp: 1
+    Data:
+    - LeTai.TrueShadow
+  - Name: Modern Procedural UI Kit
+    AssetType: 3
+    ScriptingDefineName: MPUIKIT_EXISTS
+    Enabled:
+      Value: 1
+      Temp: 1
+    Data:
+    - MPUIKit
+    - MPUIKIT
+  - Name: Procedural UI Image
+    AssetType: 4
+    ScriptingDefineName: PUI_EXISTS
+    Enabled:
+      Value: 1
+      Temp: 1
+    Data:
+    - UnityEngine.UI.ProceduralImage
+  - Name: I2 Localization
+    AssetType: 5
+    ScriptingDefineName: I2LOC_EXISTS
+    Enabled:
+      Value: 1
+      Temp: 1
+    Data:
+    - I2.Loc
+  - Name: Shapes2D
+    AssetType: 6
+    ScriptingDefineName: SHAPES_EXISTS
+    Enabled:
+      Value: 1
+      Temp: 1
+    Data:
+    - Shapes2D
+  aligmentConfigs:
+  - Label: UpperLeft | FixedFixed
+    FigmaData: INHERIT FIXED FIXED NULL NULL
+    Anchor: 0
+    LayoutType: 1
+  - Label: UpperLeft | FixedFixed
+    FigmaData: NULL FIXED FIXED NULL NULL
+    Anchor: 0
+    LayoutType: 1
+  - Label: UpperLeft | HugFixed
+    FigmaData: NULL NULL FIXED NULL NULL
+    Anchor: 0
+    LayoutType: 2
+  - Label: UpperLeft | FixedHug
+    FigmaData: INHERIT FIXED NULL NULL NULL
+    Anchor: 0
+    LayoutType: 3
+  - Label: UpperLeft | FixedHug
+    FigmaData: INHERIT NULL FIXED NULL NULL
+    Anchor: 0
+    LayoutType: 3
+  - Label: UpperLeft | FixedHug
+    FigmaData: INHERIT NULL NULL NULL NULL
+    Anchor: 0
+    LayoutType: 3
+  - Label: UpperLeft | FixedHug
+    FigmaData: NULL FIXED NULL NULL NULL
+    Anchor: 0
+    LayoutType: 3
+  - Label: UpperLeft | FixedHug
+    FigmaData: STRETCH NULL FIXED NULL NULL
+    Anchor: 0
+    LayoutType: 3
+  - Label: UpperLeft | HugHug
+    FigmaData: MIN NULL NULL NULL NULL
+    Anchor: 0
+    LayoutType: 4
+  - Label: UpperLeft | HugHug
+    FigmaData: NULL NULL NULL NULL NULL
+    Anchor: 0
+    LayoutType: 4
+  - Label: UpperLeft | HugHug
+    FigmaData: STRETCH NULL NULL NULL NULL
+    Anchor: 0
+    LayoutType: 4
+  - Label: UpperLeft | FillFixed
+    FigmaData: STRETCH FIXED FIXED NULL NULL
+    Anchor: 0
+    LayoutType: 7
+  - Label: UpperLeft | FillHug
+    FigmaData: STRETCH FIXED NULL NULL NULL
+    Anchor: 0
+    LayoutType: 8
+  - Label: UpperCenter | FixedHug
+    FigmaData: NULL FIXED NULL CENTER NULL
+    Anchor: 1
+    LayoutType: 3
+  - Label: UpperCenter | FixedHug
+    FigmaData: NULL NULL FIXED NULL SPACE_BETWEEN
+    Anchor: 1
+    LayoutType: 3
+  - Label: UpperCenter | FillFixed
+    FigmaData: STRETCH FIXED FIXED CENTER NULL
+    Anchor: 1
+    LayoutType: 7
+  - Label: UpperCenter | FillHug
+    FigmaData: STRETCH FIXED NULL CENTER NULL
+    Anchor: 1
+    LayoutType: 8
+  - Label: UpperCenter | FillHug
+    FigmaData: STRETCH NULL FIXED NULL CENTER
+    Anchor: 1
+    LayoutType: 8
+  - Label: UpperCenter | FillHug
+    FigmaData: STRETCH NULL FIXED NULL SPACE_BETWEEN
+    Anchor: 1
+    LayoutType: 8
+  - Label: UpperRight | FixedFixed
+    FigmaData: INHERIT FIXED FIXED MAX NULL
+    Anchor: 2
+    LayoutType: 1
+  - Label: UpperRight | FixedFixed
+    FigmaData: NULL FIXED FIXED CENTER MAX
+    Anchor: 2
+    LayoutType: 1
+  - Label: UpperRight | FixedHug
+    FigmaData: INHERIT FIXED NULL MAX NULL
+    Anchor: 2
+    LayoutType: 3
+  - Label: UpperRight | FixedHug
+    FigmaData: INHERIT NULL FIXED MAX NULL
+    Anchor: 2
+    LayoutType: 3
+  - Label: UpperRight | FixedHug
+    FigmaData: INHERIT NULL NULL MAX NULL
+    Anchor: 2
+    LayoutType: 3
+  - Label: UpperRight | FixedHug
+    FigmaData: NULL NULL FIXED NULL MAX
+    Anchor: 2
+    LayoutType: 3
+  - Label: UpperRight | HugHug
+    FigmaData: MAX NULL NULL MAX NULL
+    Anchor: 2
+    LayoutType: 4
+  - Label: UpperRight | HugHug
+    FigmaData: NULL NULL NULL CENTER MAX
+    Anchor: 2
+    LayoutType: 4
+  - Label: UpperRight | FillFixed
+    FigmaData: STRETCH FIXED FIXED MAX NULL
+    Anchor: 2
+    LayoutType: 7
+  - Label: UpperRight | FillHug
+    FigmaData: STRETCH FIXED NULL MAX NULL
+    Anchor: 2
+    LayoutType: 8
+  - Label: UpperRight | FillHug
+    FigmaData: STRETCH NULL FIXED NULL MAX
+    Anchor: 2
+    LayoutType: 8
+  - Label: MiddleLeft | FixedFixed
+    FigmaData: INHERIT FIXED FIXED CENTER NULL
+    Anchor: 3
+    LayoutType: 1
+  - Label: MiddleLeft | FixedFixed
+    FigmaData: INHERIT FIXED FIXED NULL CENTER
+    Anchor: 3
+    LayoutType: 1
+  - Label: MiddleLeft | FixedFixed
+    FigmaData: NULL FIXED FIXED CENTER NULL
+    Anchor: 3
+    LayoutType: 1
+  - Label: MiddleLeft | FixedFixed
+    FigmaData: NULL FIXED FIXED NULL CENTER
+    Anchor: 3
+    LayoutType: 1
+  - Label: MiddleLeft | FixedFixed
+    FigmaData: NULL FIXED FIXED NULL SPACE_BETWEEN
+    Anchor: 3
+    LayoutType: 1
+  - Label: MiddleLeft | FixedHug
+    FigmaData: INHERIT FIXED NULL CENTER NULL
+    Anchor: 1
+    LayoutType: 3
+  - Label: MiddleLeft | HugFixed
+    FigmaData: NULL NULL FIXED NULL CENTER
+    Anchor: 3
+    LayoutType: 2
+  - Label: MiddleLeft | FixedHug
+    FigmaData: INHERIT FIXED NULL NULL CENTER
+    Anchor: 3
+    LayoutType: 3
+  - Label: MiddleLeft | FixedHug
+    FigmaData: INHERIT NULL FIXED CENTER NULL
+    Anchor: 3
+    LayoutType: 3
+  - Label: MiddleLeft | FixedHug
+    FigmaData: INHERIT NULL FIXED NULL CENTER
+    Anchor: 3
+    LayoutType: 3
+  - Label: MiddleLeft | FixedHug
+    FigmaData: INHERIT NULL NULL NULL CENTER
+    Anchor: 3
+    LayoutType: 3
+  - Label: MiddleLeft | FixedHug
+    FigmaData: NULL FIXED NULL NULL CENTER
+    Anchor: 3
+    LayoutType: 3
+  - Label: MiddleLeft | FixedHug
+    FigmaData: NULL NULL FIXED CENTER NULL
+    Anchor: 3
+    LayoutType: 3
+  - Label: MiddleLeft | HugHug
+    FigmaData: INHERIT NULL NULL BASELINE NULL
+    Anchor: 3
+    LayoutType: 4
+  - Label: MiddleLeft | HugHug
+    FigmaData: INHERIT NULL NULL CENTER NULL
+    Anchor: 3
+    LayoutType: 4
+  - Label: MiddleLeft | HugHug
+    FigmaData: MAX NULL NULL CENTER NULL
+    Anchor: 3
+    LayoutType: 4
+  - Label: MiddleLeft | HugHug
+    FigmaData: NULL NULL NULL BASELINE NULL
+    Anchor: 3
+    LayoutType: 4
+  - Label: MiddleLeft | HugHug
+    FigmaData: NULL NULL NULL CENTER NULL
+    Anchor: 3
+    LayoutType: 4
+  - Label: MiddleLeft | HugHug
+    FigmaData: NULL NULL NULL NULL CENTER
+    Anchor: 3
+    LayoutType: 4
+  - Label: MiddleLeft | HugHug
+    FigmaData: STRETCH NULL NULL CENTER NULL
+    Anchor: 3
+    LayoutType: 4
+  - Label: MiddleLeft | FillFixed
+    FigmaData: INHERIT FIXED FIXED NULL SPACE_BETWEEN
+    Anchor: 3
+    LayoutType: 7
+  - Label: MiddleLeft | FillFixed
+    FigmaData: STRETCH FIXED FIXED NULL CENTER
+    Anchor: 3
+    LayoutType: 7
+  - Label: MiddleLeft | FillHug
+    FigmaData: STRETCH FIXED NULL NULL CENTER
+    Anchor: 3
+    LayoutType: 8
+  - Label: MiddleLeft | FillHug
+    FigmaData: STRETCH NULL FIXED CENTER NULL
+    Anchor: 3
+    LayoutType: 8
+  - Label: MiddleCenter | FixedFixed
+    FigmaData: INHERIT FIXED FIXED CENTER CENTER
+    Anchor: 4
+    LayoutType: 1
+  - Label: MiddleCenter | FixedFixed
+    FigmaData: INHERIT FIXED FIXED CENTER SPACE_BETWEEN
+    Anchor: 4
+    LayoutType: 1
+  - Label: MiddleCenter | FixedFixed
+    FigmaData: NULL FIXED FIXED CENTER CENTER
+    Anchor: 4
+    LayoutType: 1
+  - Label: MiddleCenter | FixedFixed
+    FigmaData: NULL FIXED FIXED CENTER SPACE_BETWEEN
+    Anchor: 4
+    LayoutType: 1
+  - Label: MiddleCenter | FixedHug
+    FigmaData: INHERIT FIXED NULL CENTER CENTER
+    Anchor: 4
+    LayoutType: 3
+  - Label: MiddleCenter | FixedHug
+    FigmaData: INHERIT NULL FIXED CENTER CENTER
+    Anchor: 4
+    LayoutType: 3
+  - Label: MiddleCenter | FixedHug
+    FigmaData: INHERIT NULL FIXED CENTER SPACE_BETWEEN
+    Anchor: 4
+    LayoutType: 3
+  - Label: MiddleCenter | FixedHug
+    FigmaData: INHERIT NULL NULL CENTER CENTER
+    Anchor: 4
+    LayoutType: 3
+  - Label: MiddleCenter | FixedHug
+    FigmaData: NULL FIXED NULL CENTER CENTER
+    Anchor: 4
+    LayoutType: 3
+  - Label: MiddleCenter | FixedHug
+    FigmaData: NULL NULL FIXED CENTER CENTER
+    Anchor: 4
+    LayoutType: 3
+  - Label: MiddleCenter | FixedHug
+    FigmaData: NULL NULL FIXED CENTER SPACE_BETWEEN
+    Anchor: 4
+    LayoutType: 3
+  - Label: MiddleCenter | HugHug
+    FigmaData: INHERIT NULL NULL BASELINE CENTER
+    Anchor: 4
+    LayoutType: 4
+  - Label: MiddleCenter | HugHug
+    FigmaData: NULL NULL NULL BASELINE CENTER
+    Anchor: 4
+    LayoutType: 4
+  - Label: MiddleCenter | HugHug
+    FigmaData: NULL NULL NULL CENTER CENTER
+    Anchor: 4
+    LayoutType: 4
+  - Label: MiddleCenter | FillFixed
+    FigmaData: STRETCH FIXED FIXED CENTER CENTER
+    Anchor: 4
+    LayoutType: 7
+  - Label: MiddleCenter | FillFixed
+    FigmaData: STRETCH FIXED FIXED CENTER SPACE_BETWEEN
+    Anchor: 4
+    LayoutType: 7
+  - Label: MiddleCenter | FillHug
+    FigmaData: STRETCH FIXED NULL CENTER CENTER
+    Anchor: 4
+    LayoutType: 8
+  - Label: MiddleCenter | FillHug
+    FigmaData: STRETCH NULL FIXED CENTER CENTER
+    Anchor: 4
+    LayoutType: 8
+  - Label: MiddleCenter | FillHug
+    FigmaData: STRETCH NULL FIXED CENTER SPACE_BETWEEN
+    Anchor: 4
+    LayoutType: 8
+  - Label: MiddleRight | FixedFixed
+    FigmaData: INHERIT FIXED FIXED MAX CENTER
+    Anchor: 5
+    LayoutType: 1
+  - Label: MiddleRight | FixedFixed
+    FigmaData: INHERIT FIXED FIXED MAX MAX
+    Anchor: 5
+    LayoutType: 1
+  - Label: MiddleRight | FixedFixed
+    FigmaData: NULL FIXED FIXED MAX CENTER
+    Anchor: 5
+    LayoutType: 1
+  - Label: MiddleRight | HugFixed
+    FigmaData: INHERIT FIXED NULL CENTER MAX
+    Anchor: 5
+    LayoutType: 2
+  - Label: MiddleRight | HugFixed
+    FigmaData: INHERIT NULL FIXED MAX SPACE_BETWEEN
+    Anchor: 5
+    LayoutType: 2
+  - Label: MiddleRight | FixedHug
+    FigmaData: INHERIT FIXED NULL MAX CENTER
+    Anchor: 5
+    LayoutType: 3
+  - Label: MiddleRight | FixedHug
+    FigmaData: INHERIT FIXED NULL MAX MAX
+    Anchor: 5
+    LayoutType: 3
+  - Label: MiddleRight | FixedHug
+    FigmaData: INHERIT NULL FIXED MAX CENTER
+    Anchor: 5
+    LayoutType: 3
+  - Label: MiddleRight | FixedHug
+    FigmaData: INHERIT NULL FIXED MAX MAX
+    Anchor: 5
+    LayoutType: 3
+  - Label: MiddleRight | FixedHug
+    FigmaData: INHERIT NULL NULL MAX CENTER
+    Anchor: 5
+    LayoutType: 3
+  - Label: MiddleRight | FixedHug
+    FigmaData: INHERIT NULL NULL MAX MAX
+    Anchor: 5
+    LayoutType: 3
+  - Label: MiddleRight | HugHug
+    FigmaData: NULL NULL NULL MAX CENTER
+    Anchor: 5
+    LayoutType: 4
+  - Label: MiddleRight | FixedFill
+    FigmaData: STRETCH FIXED FIXED MAX SPACE_BETWEEN
+    Anchor: 5
+    LayoutType: 5
+  - Label: MiddleRight | FillFixed
+    FigmaData: STRETCH FIXED FIXED MAX CENTER
+    Anchor: 5
+    LayoutType: 7
+  - Label: MiddleRight | FillFixed
+    FigmaData: STRETCH FIXED FIXED MAX MAX
+    Anchor: 5
+    LayoutType: 7
+  - Label: MiddleRight | FillFixed
+    FigmaData: STRETCH FIXED FIXED NULL SPACE_BETWEEN
+    Anchor: 5
+    LayoutType: 7
+  - Label: MiddleRight | FillHug
+    FigmaData: STRETCH FIXED NULL MAX CENTER
+    Anchor: 5
+    LayoutType: 8
+  - Label: MiddleRight | FillHug
+    FigmaData: STRETCH FIXED NULL MAX MAX
+    Anchor: 5
+    LayoutType: 8
+  - Label: MiddleRight | FillHug
+    FigmaData: STRETCH NULL FIXED CENTER MAX
+    Anchor: 5
+    LayoutType: 8
+  - Label: LowerLeft | FixedFixed
+    FigmaData: INHERIT FIXED FIXED NULL MAX
+    Anchor: 6
+    LayoutType: 1
+  - Label: LowerLeft | FixedHug
+    FigmaData: INHERIT FIXED NULL NULL MAX
+    Anchor: 6
+    LayoutType: 3
+  - Label: LowerLeft | FixedHug
+    FigmaData: INHERIT NULL FIXED NULL MAX
+    Anchor: 6
+    LayoutType: 3
+  - Label: LowerLeft | FixedHug
+    FigmaData: INHERIT NULL NULL NULL MAX
+    Anchor: 6
+    LayoutType: 3
+  - Label: LowerLeft | HugHug
+    FigmaData: NULL NULL NULL MAX NULL
+    Anchor: 6
+    LayoutType: 4
+  - Label: LowerLeft | FillFixed
+    FigmaData: STRETCH FIXED FIXED NULL MAX
+    Anchor: 6
+    LayoutType: 7
+  - Label: LowerLeft | FillHug
+    FigmaData: STRETCH FIXED NULL NULL MAX
+    Anchor: 6
+    LayoutType: 8
+  - Label: LowerCenter | FixedFixed
+    FigmaData: INHERIT FIXED FIXED CENTER MAX
+    Anchor: 5
+    LayoutType: 1
+  - Label: LowerCenter | FixedFixed
+    FigmaData: INHERIT FIXED FIXED MAX SPACE_BETWEEN
+    Anchor: 7
+    LayoutType: 1
+  - Label: LowerCenter | FixedHug
+    FigmaData: INHERIT NULL FIXED CENTER MAX
+    Anchor: 7
+    LayoutType: 3
+  - Label: LowerCenter | FixedHug
+    FigmaData: INHERIT NULL NULL CENTER MAX
+    Anchor: 7
+    LayoutType: 3
+  - Label: LowerCenter | FixedHug
+    FigmaData: NULL NULL FIXED MAX SPACE_BETWEEN
+    Anchor: 7
+    LayoutType: 3
+  - Label: LowerCenter | FillFixed
+    FigmaData: STRETCH FIXED FIXED CENTER MAX
+    Anchor: 7
+    LayoutType: 7
+  - Label: LowerCenter | FillHug
+    FigmaData: STRETCH FIXED NULL CENTER MAX
+    Anchor: 7
+    LayoutType: 8
+  - Label: LowerCenter | FillHug
+    FigmaData: STRETCH NULL FIXED MAX CENTER
+    Anchor: 7
+    LayoutType: 8
+  - Label: LowerCenter | FillHug
+    FigmaData: STRETCH NULL FIXED MAX SPACE_BETWEEN
+    Anchor: 7
+    LayoutType: 8
+  - Label: LowerRight | FixedHug
+    FigmaData: NULL FIXED NULL MAX MAX
+    Anchor: 8
+    LayoutType: 3
+  uiManagerPrefab: {fileID: 1919178992252520523, guid: a5ff14a0ab8577347b386b4c23d609c9,
+    type: 3}
+  importLogFileName: import.log
+  webLogFileName: response.json
+  localizationFileName: localization.csv
+  maxCachedFilesCount: 25
+  maxLogFilesCount: 50
+  dateTimeFormat1: HH-mm-ss-fff
+  dateTimeFormat2: HH-mm-ss
+  eventSystemGameObjectName: EventSystem
+  canvasGameObjectName: Canvas {0}
+  i2LocGameObjectName: script - Language Source
+  probabilityMatchingNames: 0.8
+  gameObjectMaxNameLenght: 32
+  chunkSizeDownloadingImages: 256
+  compressAssetsOnImport: 0
+  crunchedCompression: 0
+  crunchedCompressionQuality: 0
+  textureImporterType: 8
+  textureImporterCompression: 0
+  logDefault: 1
+  logSetTag: 0
+  logIsDownloadable: 0
+  logTransform: 0
+  https: 1
+  useUiManager: 0
+  localizations: {fileID: 4900000, guid: 76e267d64912f5c44a25b64a5d86254b, type: 3}
+  language: 0
+  assetLanguageNames:
+  - ENGLISH
+  - "\u0423\u041A\u0420\u0410\u0407\u041D\u0421\u042C\u041A\u0410"
+  - "\u7B80\u4F53\u4E2D\u6587"
+  - "\u65E5\u672C\u8A9E"
+  - "\uD55C\uAD6D\uC5B4"
