@@ -10,6 +10,9 @@ EditorBuildSettings:
     guid: ecba80abe8647604ca52dbf9d428bb6b
   - enabled: 1
     path: Assets/Views/ModelsPage.unity
+    guid: f584297b04009a54d9617e02088a003f
+  - enabled: 1
+    path: Assets/Views/ContactUs.unity
     guid: cf68d05970553884cb71fd67c080b095
   - enabled: 1
     path: Assets/Standing Female/Standing Female.unity
