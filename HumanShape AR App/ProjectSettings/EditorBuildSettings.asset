@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Views/Homepage.unity
     guid: ecba80abe8647604ca52dbf9d428bb6b
   - enabled: 1
+    path: Assets/Views/About.unity
+    guid: 62e356af1863fad4f8090a2c2070fbbb
+  - enabled: 1
     path: Assets/Views/ModelsPage.unity
     guid: f584297b04009a54d9617e02088a003f
   - enabled: 1

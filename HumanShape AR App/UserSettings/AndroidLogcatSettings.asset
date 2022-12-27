@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "4836524f4e533098",
         "name": "com.UMTRI.HumanShape",
-        "processId": 15348,
+        "processId": 18130,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -222,6 +222,12 @@
             "deviceId": "4836524f4e533098",
             "name": "com.UMTRI.HumanShape",
             "processId": 15348,
+            "exited": false
+        },
+        {
+            "deviceId": "4836524f4e533098",
+            "name": "com.UMTRI.HumanShape",
+            "processId": 18130,
             "exited": false
         }
     ],
