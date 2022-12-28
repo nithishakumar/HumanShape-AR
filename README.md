@@ -9,3 +9,12 @@ HumanShape AR™ allows users to manipulate body shape models in real time to fi
 </p>
 
 HumanShape AR™ has a variety of applications in vehicle design and medical areas. Learn more about HumanShape AR™'s applications at: https://www.youtube.com/watch?v=niDApHav9gI
+
+Things to do before opening the HumanShape AR App Unity Project:
+1. Download the 2021.3.7f1 Unity Editor
+2. Go to the "Packages" folder in the HumanShape AR App project folder
+3. Delete the packages-lock file
+4. Download the file from this link: https://drive.google.com/file/d/1tHxQX6c5EJXSIcm9ep2zM4LbRnpoEYM2/view
+5. Put the downloaded file in the Packages folder
+6. You’re now ready to open the project!
+
