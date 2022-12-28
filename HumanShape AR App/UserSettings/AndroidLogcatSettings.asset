@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "4836524f4e533098",
         "name": "com.UMTRI.HumanShape",
-        "processId": 18130,
+        "processId": 22630,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -228,6 +228,30 @@
             "deviceId": "4836524f4e533098",
             "name": "com.UMTRI.HumanShape",
             "processId": 18130,
+            "exited": false
+        },
+        {
+            "deviceId": "4836524f4e533098",
+            "name": "com.UMTRI.HumanShape",
+            "processId": 11344,
+            "exited": false
+        },
+        {
+            "deviceId": "4836524f4e533098",
+            "name": "com.UMTRI.HumanShape",
+            "processId": 14664,
+            "exited": false
+        },
+        {
+            "deviceId": "4836524f4e533098",
+            "name": "com.UMTRI.HumanShape",
+            "processId": 14904,
+            "exited": false
+        },
+        {
+            "deviceId": "4836524f4e533098",
+            "name": "com.UMTRI.HumanShape",
+            "processId": 22630,
             "exited": false
         }
     ],

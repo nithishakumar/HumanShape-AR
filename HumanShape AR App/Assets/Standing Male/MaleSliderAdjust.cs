@@ -29,7 +29,7 @@ public class MaleSliderAdjust : MonoBehaviour
     [SerializeField] TextMeshProUGUI lbSittingHeightStat;
     [SerializeField] TextMeshProUGUI lbAge;
     [SerializeField] TextMeshProUGUI lbRotation;
-    [SerializeField] TextMeshProUGUI landmarkButtonText;
+    [SerializeField] Text landmarkButtonText;
 
     [SerializeField] bool areLandmarksDisplayed = false;
 
@@ -190,13 +190,13 @@ public class MaleSliderAdjust : MonoBehaviour
         if (!areLandmarksDisplayed)
         {
             areLandmarksDisplayed = true;
-            landmarkButtonText.text = "Hide Landmarks";
+            landmarkButtonText.text = "HIDE LANDMARKS";
             CreateLandmarks();
         }
         else
         {
             areLandmarksDisplayed = false;
-            landmarkButtonText.text = "Show Landmarks";
+            landmarkButtonText.text = "SHOW LANDMARKS";
             model.transform.DetachChildren();
             GameObject.Destroy(GameObject.Find("landmarks"));
         }

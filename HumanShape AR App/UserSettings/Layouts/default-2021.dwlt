@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 15
+  controlID: 9533
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -177,7 +177,7 @@ MonoBehaviour:
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-  m_LastLoadedLayoutName: 
+  m_LastLoadedLayoutName: Default
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 16
+  controlID: 9534
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 17
+  controlID: 9535
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -308,7 +308,7 @@ MonoBehaviour:
   m_SerializedViewNames:
   - UnityEditor.GameView
   m_SerializedViewValues:
-  - D:\UROP\HumanShape AR App\Library\PlayModeViewStates\4d05a672122a6ef46a090e175345540a
+  - D:\UROP\HumanShape AR App\Library\PlayModeViewStates\1ecd6056f75e17440b85140a0f4e06d1
   m_PlayModeViewName: Device Simulator
   m_ShowGizmos: 0
   m_TargetDisplay: 0
@@ -329,8 +329,8 @@ MonoBehaviour:
     - UnityEditor.DeviceSimulation.ApplicationSettingsPlugin
     pluginStates:
     - '{}'
-    scale: 17
-    fitToScreenEnabled: 0
+    scale: 15
+    fitToScreenEnabled: 1
     rotationDegree: 0
     highlightSafeAreaEnabled: 0
     friendlyName: Apple iPhone 12
@@ -356,10 +356,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 468
-    y: 181
-    width: 973
-    height: 501
+    x: 303.2
+    y: 73.6
+    width: 919.60004
+    height: 420.6
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -405,36 +405,36 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Views
+    - Assets/Seated Adult
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Views
+  - Assets/Seated Adult
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\UROP\HumanShape AR App
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 71.80002}
-    m_SelectedIDs: d05f0000
-    m_LastClickedID: 24528
-    m_ExpandedIDs: 00000000b65f000000ca9a3b
+    scrollPos: {x: 0, y: 42.999878}
+    m_SelectedIDs: 50600000
+    m_LastClickedID: 24656
+    m_ExpandedIDs: 000000003e60000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Other Scripts
+      m_OriginalName: Other Scripts
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 24650
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
@@ -448,7 +448,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000
+    m_ExpandedIDs: 000000003e60000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -476,7 +476,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c623000000000000
+    m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -492,7 +492,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 11}
+      m_ClientGUIView: {fileID: 0}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -578,7 +578,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 3aa0ffff7ea0ffffd2a1ffff24a2ffff78a5ffff94a5ffffa6a5ffffd2a5ffffdaa5ffffe2a5ffffeaa5fffff4a5ffff7aa6ffffbea6ffff5aa7ffff6ea8ffffd6bcffff16bdffff5abdffff9ebdffffe2bdffff26beffff54c9ffff4acaffff9cdaffffe0daffff24dbffff68dbffff84dfffffe0e8ffff80ebffffc0ebffff00ecffff40ecffffa4ecffffe8ecffff2cedffff70edffffb4edfffff0f7ffff94f8ffffdaf8ffff1ef9ffff62f9ffffa6f9ffffeaf9ffff2efaffff32fbffffde6400003e65000056650000806c0000946c0000a26c0000ac6c0000087000003e720000947200006e7300008a73000010780000287800003878000066780000fa790000167b00003a87000056870000
+      m_ExpandedIDs: d8b3ffff2ab4ffff6ab7ffff82b7ffff90b7ffff9cb7ffffa0b7ffffa4b7ffffa8b7ffffacb7ffff4eb8ffffa4b8ffffcec2ffff9ec3ffff14c4ffff5acdffffcacdffff6ad2ffff08d3ffff5ed3ffffb4d3ffff78820000bc82000022830000ae9f0000f09f00000ea0000012a0000016a0000042a000006ca00000e6a200002aa30000eea30000c6a400008ea500001aa6000022a60000b6a60000beaf000074b100009ab1000088b40000f0b400002eb5000036b5000044b5000048b500004cb5000060b500006cb5000078b50000b0b50000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -594,14 +594,14 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 11}
+        m_ClientGUIView: {fileID: 5}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
     m_LockTracker:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
-  m_WindowGUID: 1e4669ce8395b6a43a5dae7a975b9f64
+  m_WindowGUID: e3d33ad3bd285ae499cbfa32bb2738a7
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -817,7 +817,7 @@ MonoBehaviour:
       id: Scene View/Particles
       index: 10
       layout: 4
-  m_WindowGUID: 01c178c3f649308419d31b23889a8fb5
+  m_WindowGUID: 57306824558a2be49b4a2600b30b69a2
   m_Gizmos: 1
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
