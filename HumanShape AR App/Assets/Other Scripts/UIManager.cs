@@ -12,7 +12,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] Text Instructions = null;
 
     const string MODEL_PLACEMENT_HINT = "Tap to place Model";
-    const string MODEL_CONTROLS = "Touch and drag to move Model";
+    const string MODEL_CONTROLS = "Set parameters to modify model";
     const string POINT_DEVICE_TO_GROUND_HINT = "Point device towards ground";
     const string POINT_DEVICE_TO_FLAT_SURFACE_HINT = "Point device towards a flat surface";
     const string MOVE_TO_ANOTHER_PLACE_HINT = "Move to get better tracking";
