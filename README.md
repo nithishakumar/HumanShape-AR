@@ -18,3 +18,5 @@ Things to do before opening the HumanShape AR App Unity Project:
 5. Put the downloaded file in the Packages folder
 6. You’re now ready to open the project!*
 *If you face any errors in the package cache, delete that folder in the cache and the package lock file and reopen the project.
+
+These steps have to be performed since the Vuforia package is too big to fit in the GitHub repository.
