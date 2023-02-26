@@ -12,7 +12,7 @@ HumanShape™ A has a variety of applications in vehicle design and medical area
 
 Watch a demo of the app here: https://www.youtube.com/watch?v=Jrlz6zi48Rs
 
-Things to do before opening the HumanShape AR App Unity Project:
+Things to do before opening the HumanShape™ AR App Unity Project:
 1. Download the 2021.3.7f1 Unity Editor
 2. Go to the "Packages" folder in the HumanShape AR App project folder
 3. Delete the packages-lock file
