@@ -16,8 +16,8 @@ Things to do before opening the HumanShape™ AR App Unity Project:
 1. Download the 2021.3.7f1 Unity Editor
 2. Go to the "Packages" folder in the HumanShape AR App project folder
 3. Delete the packages-lock file
-4. Download the file from this link: https://drive.google.com/file/d/1tHxQX6c5EJXSIcm9ep2zM4LbRnpoEYM2/view
+4. Download the Vuforia package file from this link: https://drive.google.com/file/d/1tHxQX6c5EJXSIcm9ep2zM4LbRnpoEYM2/view
 5. Put the downloaded file in the Packages folder
 6. You’re now ready to open the project! If you face any other errors in the package cache, delete that specific folder (mentioned in the error) in the cache folder and the package lock file and then reopen the project.
 
-These steps have to be performed since the Vuforia package is too big to fit in the GitHub repository.
+These steps have to be performed because the Vuforia package is too big to fit in the GitHub repository.
